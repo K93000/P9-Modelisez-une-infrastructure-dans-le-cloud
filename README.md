@@ -49,7 +49,7 @@ Une courte présentation vidéo illustrant le fonctionnement du pipeline, le dé
 
 Une courte présentation vidéo illustrant le fonctionnement du pipeline, le démarrage des conteneurs et la génération des fichiers de sortie :
 
-👉 **[Regarder la vidéo de démonstration du POC](https://github.com/K93000/P9-Modelisez-une-infrastructure-dans-le-cloud/raw/main/2026-08-17%2013-29-21.mp4)**
+👉 **[Regarder la vidéo de démonstration du POC](https://github.com/K93000/P9-Modelisez-une-infrastructure-dans-le-cloud/raw/main/Documents/2026-08-17%2013-29-21.mp4)**
 
 🛠️ Prérequis
 Docker Desktop (avec Docker Compose V2)
