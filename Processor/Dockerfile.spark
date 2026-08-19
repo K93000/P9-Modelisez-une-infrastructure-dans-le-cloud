@@ -1,0 +1,17 @@
+FROM python:3.11-slim
+
+# Installation de Java (requise pour PySpark) et des outils système
+RUN apt-get update && \
+    apt-get install -y default-jre-headless procps && \
+    rm -rf /var/lib/apt-get/lists/*
+
+WORKDIR /app
+
+# Installation de PySpark stable
+RUN pip install --no-cache-dir "pyspark==3.5.1"
+
+# Copie du script
+COPY spark_processor.py .
+
+# Lancement du processeur Spark
+CMD ["python", "spark_processor.py"]

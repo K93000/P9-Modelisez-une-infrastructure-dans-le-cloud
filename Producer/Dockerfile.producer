@@ -1,0 +1,12 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Installation des dépendances
+RUN pip install --no-cache-dir kafka-python-ng
+
+# Copie du script
+COPY producer.py .
+
+# Lancement du producteur
+CMD ["python", "producer.py"]
