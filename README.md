@@ -29,7 +29,7 @@ flowchart TB
     A -->|1. Ingestion JSON| B
     B -->|2. Lecture du flux| C
     C -->|3. Écriture Micro-Batches| D
-
+```
     
     
     
