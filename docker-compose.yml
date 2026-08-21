@@ -17,7 +17,7 @@ services:
 
   producer:
     build:
-      context: .
+      context: ./Producer
       dockerfile: Dockerfile.producer
     container_name: producer_tickets
     depends_on:
@@ -28,7 +28,7 @@ services:
 
   spark:
     build:
-      context: .
+      context: ./Processor
       dockerfile: Dockerfile.spark
     container_name: spark_processor
     depends_on:
