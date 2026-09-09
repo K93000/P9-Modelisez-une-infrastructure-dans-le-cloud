@@ -51,7 +51,7 @@ Une courte présentation vidéo illustrant le fonctionnement du pipeline, le dé
 
 ## 🎥 Vidéo de Démonstration
 
-👉 **[Regarder la vidéo de démonstration du POC](./Documents/2026-08-21%2010-18-28.mp4)**
+👉 **[Regarder la vidéo de démonstration du POC](./Documents/2026-08-22010-18-28.mp4)**
 
 
 🛠️ Prérequis
